@@ -2,5 +2,5 @@ gunicorn
 dash==2.7.0  # Update to the latest version
 pandas==1.4.3  # Update to the latest version
 dash-tools
-
+joblib>=1.2.0 
 
