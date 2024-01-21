@@ -9,4 +9,4 @@ dash-html-components # Update to the latest version
 dash-core-components  # Update to the latest version
 flask # Update to the latest version
 nltk # Update to the latest version
-numpy==23.3.2# Update to the latest version
+numpy>=1.19.5# Update to the latest version
