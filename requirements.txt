@@ -10,3 +10,4 @@ dash-core-components  # Update to the latest version
 flask # Update to the latest version
 nltk # Update to the latest version
 numpy>=1.19.5 # Update to the latest version
+scikit-learn>=0.24.2
