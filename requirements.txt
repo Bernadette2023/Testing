@@ -1,12 +1,12 @@
 gunicorn
-dash==2.7.0  # Update to the latest version
-pandas==1.4.3  # Update to the latest version
+dash>=2.7.0  # Update to the latest version
+pandas>=1.4.3  # Update to the latest version
 dash-tools
 joblib>=1.2.0 
-regex==2021.11.1
-dash-renderer==1.8.3
-dash-html-components==1.1.4  # Update to the latest version
-dash-core-components==2.0.0  # Update to the latest version
-flask==2.1.2  # Update to the latest version
-nltk==3.6.5  # Update to the latest version
+regex>=2021.11.1
+dash-renderer>=1.8.3
+dash-html-components>=2.0.0  # Update to the latest version
+dash-core-components>=2.0.0  # Update to the latest version
+flask>=2.1.2  # Update to the latest version
+nltk>=3.6.5  # Update to the latest version
 numpy>=1.19.5  # Update to the latest version
