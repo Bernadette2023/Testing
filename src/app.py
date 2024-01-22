@@ -37,7 +37,9 @@ server = app.server
 
 # Dash code here
 
-data = os.path.abspath('assets/cities_df.csv')
+file_path = os.path.abspath('assets/cities_df.csv')
+data = pd.read_csv(file_path)
+
 X = data['Attraction']
 y = data['City']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.2, random_state=123)
