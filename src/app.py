@@ -37,7 +37,7 @@ server = app.server
 
 # Dash code here
 
-data = pd.read_csv('cities_df.csv', index_col=0)
+data = pd.read_csv('assets/cities_df.csv', index_col=0)
 X = data['Attraction']
 y = data['City']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.2, random_state=123)
